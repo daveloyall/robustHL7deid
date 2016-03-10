@@ -10,6 +10,14 @@ that there were 32 messages about the same person.  The information would be los
 name in the file gets set to JOHN DOE.  It is possible to preserve 'number of occurances'
 information without violating anyone's privacy.
 
-## Features
+## Types of information to preserve
 
-### 
+Append  something like "[the string] must be replaced such that this information is preserved"
+to each item in the following list, and you've got a list of requirements for this software.
+
+* recurrance: if a string appears in more than one place in the file
+* string length
+* whitespace
+* "non-ascii"
+  Hm, not certain about this one. Could this be used to identify a patient?  If we're leaving
+  zipcodes in there, sometimes it could be!
